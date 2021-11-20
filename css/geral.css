@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+:root {
+
+--Dark-Blue: hsl(233, 26%, 24%);
+--Lime-Green: hsl(136, 65%, 51%);
+--Bright-Cyan: hsl(192, 70%, 51%);
+
+
+--Grayish-Blue: hsl(233, 8%, 62%);
+--Light-Grayish-Blue: hsl(220, 16%, 96%);
+--Very-Light-Gray: hsl(0, 0%, 98%);
+--White: hsl(0, 0%, 100%);
+}
+
+:root {
+  --header: 4rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  display: block;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,h2,h3 {
+  color: var(--Dark-Blue);
+  font-weight: normal;
+}
+
+p {
+  color: var(--Grayish-Blue);
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.bg-grid {
+  display: grid;
+  grid-template-columns: 100%;
+
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  width: 160px;
+  padding: .7rem 0;
+  text-align: center;
+  font-weight: 700;
+  
+  color: var(--White);
+  background: linear-gradient(to right, var(--Lime-Green), var(--Bright-Cyan));
+  border-radius: 1.5rem;
+  transition: all ease .3s;
+}
+
+.btn:hover {
+  opacity: .7;
+}
