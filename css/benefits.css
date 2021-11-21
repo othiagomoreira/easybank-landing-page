@@ -29,3 +29,12 @@
   gap: 1.5rem;
   text-align: center;
 }
+
+.benefits__cards img {
+  transition: all ease 2s;
+  cursor: pointer;
+}
+
+.benefits__card img:hover{
+  transform: rotate(360deg);
+}
